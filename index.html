@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Опросник для владелиц котеек</title>
+  </head>
+  <body>
+    <header>
+          <h1>Всепланетная перепись котеек</h1>
+    </header>
+    <form> 
+        <fieldset>
+            <legend>Имя</legend>
+            Кличка питомца: <input type="text" accesskey="f" tabindex="1"><br/>
+            Имя владелицы: <input type="text" accesskey="f" tabindex="1"><br/>
+            Контакты владелицы: <input type="text" accesskey="f" tabindex="1"><br/>
+        </fieldset>
+        <p>Порода котейки</p>
+        <select accesskey="f" tabindex="1">
+            <option value="main-coon">Мейн-кун</option>
+            <option value="benji">Бенгальская</option>
+            <option value="rus-blue">Русская голубая</option>
+            <option value="brit-short">Британская короткошерстная</option>
+            <option value="scottish">Скотиш</option>
+            <option value="other">Другая</option>
+        </select>
+        <p>Чем котик питается?</p>
+            <input type="checkbox" accesskey="f" tabindex="1"/> Сухой корм<br/>
+            <input type="checkbox" accesskey="f" tabindex="1"/> Влажный корм<br/>
+            <input type="checkbox" accesskey="f" tabindex="1"/> Натуральный корм<br/>
+        <p>Пол питомца:</p>
+            <input type="radio" name="s" value="f" accesskey="f" tabindex="1"/><span>Женский</span><br/>
+            <input type="radio" name="s" value="m" accesskey="f" tabindex="1"/><span>Мужской</span><br/>
+        <p>Комментарий владелицы:</p>
+            <textarea rows="5" cols="20" accesskey="f" tabindex="1" placeholder="Сюда можно написать самую любимую историю про своего котика, если есть желание :)"></textarea>
+        <p>Прикрепите фотографию пушистика, чтобы мы тоже поумилялись :3</p>
+        <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+        <input type="submit" value="Отправить"></p>
+    </form>
+    <button type="button">Сохранить</button>
+   </body>
+</html>
